@@ -1,0 +1,46 @@
+/* Sticky Footer */
+html, body{
+    height: 100%;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+main {
+    flex-grow: 1;
+    
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+
+
+/* NavBar CSS */
+a:hover {
+    background-color:rgb(192, 15, 139);
+   
+}
+
+/* Main CSS */
+.bg-image {
+   background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(/img/GridBG.png);
+   background-position: center;
+   background-size: cover;
+
+}
+
+
+.landing-text {
+    font-family: 'Londrina Shadow', cursive;
+    text-transform: uppercase;
+    color: yellow;
+
+}
+
